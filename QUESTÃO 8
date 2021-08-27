@@ -1,0 +1,45 @@
+ 
+
+public class Main 
+
+{ 
+
+  public static void main (String[]args) 
+
+  { 
+
+     
+
+     int num = new Scanner(System.in).nextInt(); 
+
+      
+
+       System.out.println("Digite um número:");   
+
+  
+
+int a = 0; 
+
+int b = 1; 
+
+ 
+
+for (int i = 0; i < num; i++) { 
+
+if (num == 1 || num == 2) { 
+
+System.out.println(1); 
+
+} else { 
+
+b = b + a; 
+
+a = b - a; 
+
+System.out.println(a); 
+
+} 
+
+} 
+
+} 
