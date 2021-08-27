@@ -1,0 +1,43 @@
+import java.util.Scanner; 
+
+  
+
+public class Main  
+
+{ 
+
+    public static void main(String[] args)  
+
+    { 
+
+        int fator; 
+
+  
+
+        Scanner scan = new Scanner(System.in); 
+
+        System.out.println("Digite um número: "); 
+
+        fator = scan.nextInt(); 
+
+  
+
+        int multiplicador = 0; 
+
+        while(multiplicador <= 10) 
+
+        { 
+
+            int resultado = fator * multiplicador; 
+
+            System.out.println(resultado);    
+
+            multiplicador++; 
+
+        } 
+
+    } 
+
+} 
+
+ 
