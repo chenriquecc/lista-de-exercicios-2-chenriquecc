@@ -1,0 +1,107 @@
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String args[]) 
+
+    { 
+
+  
+
+        int x1; 
+
+        int x2; 
+
+        int delta; 
+
+        int raiz; 
+
+  
+
+        Scanner scan = new Scanner(System.in); 
+
+  
+
+        System.out.print("Digite valor de A: "); 
+
+        int a = scan.nextInt(); 
+
+        System.out.print("Digite valor de B: "); 
+
+        int b = scan.nextInt(); 
+
+        System.out.print("Digite valor de C: "); 
+
+        int c = scan.nextInt(); 
+
+  
+
+        if(a != 0){ 
+
+  
+
+            delta = b*b * 4 * a * c; 
+
+  
+
+        if(delta >= 0) 
+
+        { 
+
+            x1 = (int) (( -b + (Math.sqrt (delta))) / ( 2*a )); 
+
+  
+
+            x2 = (int) (( -b + (Math.sqrt (delta) ) ) / ( 2*a )); 
+
+  
+
+            System.out.println("O valor de x1 é: "+x1); 
+
+            System.out.println("O valor de x2 é: "+x2); 
+
+  
+
+        } 
+
+        else 
+
+        { 
+
+                System.out.println("Inválido, "+delta+" menor 0"); 
+
+  
+
+        } 
+
+  
+
+        } 
+
+  
+
+        else 
+
+        { 
+
+            System.out.println("Inválido, A = 0"); 
+
+  
+
+        } 
+
+  
+
+  
+
+  
+
+        } 
+
+        } 
+
+ 
+
+ 
